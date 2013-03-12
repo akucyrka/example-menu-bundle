@@ -1,0 +1,7 @@
+{
+    "name": "akucyrka/example-menu-bundle",
+    "require": {
+        "php": ">=5.3.0",
+        "another-vendor/package": "1.1.*"
+    }
+}
