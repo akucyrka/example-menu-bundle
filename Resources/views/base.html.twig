@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
+        <style>
+            .current {
+                border: 2px solid red;
+            }
+
+        </style>
+    </head>
+    <body>
+    <a href="{{ path('menu') }}">admin</a>
+        {{ knp_menu_render('GajdawSimpleMenuBundle:Builder:mainMenu') }}
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+
+    </body>
+</html>

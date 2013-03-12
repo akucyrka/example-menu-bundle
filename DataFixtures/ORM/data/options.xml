@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+    <option>
+        <title>O firmie</title>
+        <contents> Lorem cos tam</contents>
+    </option>
+    <option>
+        <title>O czyms 1</title>
+        <contents> Cos tam cos tam</contents>
+    </option>
+    <option>
+        <title>O czyms 2</title>
+        <contents>Cos ipsum lorem</contents>
+    </option>
+</options>
